@@ -9,11 +9,12 @@ export resourcegroup="Replace with your value"
 export clustername="Replace with your value"
 export nodepoolname="Replace with your value"
 export location="Replace with your value"
-export nodevmsize="Replace with your value"
+
 export managedidentity="Replace with your value"
 
 export managedidentityresourceid="/subscriptions/$subscriptonid/resourcegroups/containerTest/providers/Microsoft.ManagedIdentity/userAssignedIdentities/$managedidentity"
 
 # Do not need to care about the lines below if you are not creating new clusters
+export nodevmsize="Replace with your value"
 export WINDOWS_USERNAME="Replace with your value"
 export WINDOWS_PASSWORD="Replace with your value"
