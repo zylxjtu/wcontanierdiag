@@ -14,7 +14,5 @@ spec:
     - name: hpc
       image: wcontainertestregistry.azurecr.io/monagent:v10
       imagePullPolicy: IfNotPresent
-      command: ["powershell"]
-      args:  ["./startMonagent.ps1", "<managedidentityresourceid>", <subscription>", "<resourcegroup>", "<clustername>", "1.19"]
   nodeSelector:
     "kubernetes.io/os": windows
