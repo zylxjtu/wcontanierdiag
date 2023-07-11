@@ -13,6 +13,6 @@ In order to help MSFT to facilitate the windows container related diagnostics, c
 
 (4): Customer can always get the USMI info from the getmis.sh script.
 
-(5): Run the startmonagent.sh to deploy the HPC container and start the diagnostic logging. This will fill the deployment yaml file with necessary parameters, after this, you can apply the deployment yaml file directly to redeploy
+(5): Run the startmonagent.sh to deploy the HPC container and start the diagnostic logging. 
 
 (6): After the finishing of the diagnostics, run cleanup.sh to clean the HPC contianer and USMI resource.
