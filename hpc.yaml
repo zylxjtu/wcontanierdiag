@@ -12,7 +12,7 @@ spec:
   hostNetwork: true
   containers:
     - name: hpc
-      image: wcontainertestregistry.azurecr.io/monagent:v10
+      image: wcontainertestregistry.azurecr.io/monagent:v18.0
       imagePullPolicy: IfNotPresent
   nodeSelector:
     "kubernetes.io/os": windows
