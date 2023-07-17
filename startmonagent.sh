@@ -13,4 +13,4 @@ kubectl wait --for=condition=Ready --all --timeout -1s pods
 
 kubectl get pods -o wide
 
-kubectl exec -it ${hostprocesspod} -- powershell ./startMonagent.ps1 $managedidentityresourceid $subscription $resourcegroup $clustername 1.19
+kubectl exec -it ${hostprocesspod} -- powershell ./startMonagent.ps1 $managedidentityresourceid $subscription $resourcegroup $clustername 1.20
