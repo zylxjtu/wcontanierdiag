@@ -15,4 +15,4 @@ In order to help MSFT to facilitate the windows container related diagnostics, c
 
 (5): Run the startmonagent.sh to deploy the HPC container and start the diagnostic logging. 
 
-(6): After the finishing of the diagnostics, run cleanup.sh to clean the HPC contianer and USMI resource.
+(6): After the finishing of the diagnostics, run cleanup.sh to clean the HPC container and USMI resource.
