@@ -9,7 +9,7 @@ In order to help MSFT to facilitate the windows container related diagnostics, c
 
 (2): If AKS cluster does not exist yet, please run the createcluster.sh.
 
-(3): Run addmitocluster.sh to create/assign the user-assigned MI to the AKS node pool, this will be used to auth the MSFT logging server, customer will need to let MSFT know the tenantIdd/principalId of the MI, which will be outputed from the addmitocluster.sh.
+(3): Run addmitocluster.sh to create/assign the user-assigned MI to the AKS node pool, this will be used to auth the MSFT logging server, customer will need to let MSFT know the tenantIdd/principalId of the MI, which will be outputted from the addmitocluster.sh.
 
 (4): Customer can always get the USMI info from the getmis.sh script.
 
