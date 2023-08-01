@@ -4,7 +4,7 @@
 #
 display_usage()
 {
-    echo "This script will delete the hpc pod, remove the MI assignment to the aks cluster pool, and delete the MI based on customer's option, which by default, the MI WILL BE DELETED"
+    echo "This script will delete the hpc pod, remove the MI assignment to the aks cluster pool, and delete the MI which is controlled by the true/false option, by default, the MI WILL BE DELETED"
     echo -e "\nUsage: $0 [true/false]\n"
 }
 
