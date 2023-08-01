@@ -32,7 +32,7 @@ else
 fi
 
 echo "**********************************************************************************************************"
-echo "Note down the tenanatId and principalId and let muse know, we will need them to grant access to MDS logging"
+echo "Note down the tenanatId and principalId and let msft know, we will need them to grant access to MDS logging"
 echo "***********************************************************************************************************"
 az identity show --ids $managedidentityresourceid
 
