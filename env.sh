@@ -7,6 +7,7 @@ export subscription="Replace with your value"
 export subscriptonid="Replace with your value"
 export resourcegroup="Replace with your value"
 export clustername="Replace with your value"
+# windows agent pool name can not be longer than 6 characters
 export nodepoolname="Replace with your value"
 export location="Replace with your value"
 
