@@ -18,7 +18,7 @@ if [ -n "$command_output" ]; then
   # Need to note down the tenantid and objectid (principal id) and let us know
   # so we can grant access to the MDS logging
   echo "***********************************************************************************************************"
-  echo "Note down the tenanatId and principalId and let muse know, we will need them to grant access to MDS logging"
+  echo "Note down the tenanatId and principalId and let msft know, we will need them to grant access to MDS logging"
   echo "***********************************************************************************************************"
   az identity show --ids $managedidentityresourceid
 else
