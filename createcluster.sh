@@ -26,7 +26,10 @@ az aks create \
     --windows-admin-username $WINDOWS_USERNAME \
     --windows-admin-password $WINDOWS_PASSWORD \
     --vm-set-type VirtualMachineScaleSets \
-    --network-plugin azure 
+    --network-plugin azure \
+    --enable-managed-identity \
+    --assign-identity  $managedidentityresourceid\
+    --assign-kubelet-identity $managedidentityresourceid
 
 echo "Started to add windows node pool"
 # containerrd will be the default runtime if we do not set it
